@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "chokidar": "^3.5.1",
     "emailjs-com": "^2.6.4",
+    "js-file-download": "^0.4.12",
     "particles-bg": "^2.5.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

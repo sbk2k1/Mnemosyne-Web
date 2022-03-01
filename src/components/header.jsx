@@ -18,7 +18,7 @@ export const Header = (props) => {
                 <a
                   href='../app/Mnemosyne for Windows.zip'
                   className='btn btn-custom btn-lg page-scroll'
-                  download
+                  download="Mnemosyne for Windows.zip"
                 >
                   Download
                 </a>{' '}
