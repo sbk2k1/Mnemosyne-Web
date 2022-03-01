@@ -1,6 +1,4 @@
 import ParticlesBg from "particles-bg";
-import JsFileDownloader from 'js-file-downloader';
-const fileUrl = '../app/Mnemosyne for Windows.zip';
 
 export const Header = (props) => {
   return (
@@ -18,19 +16,9 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
+                  href='https://github.com/sbk2k1/mnemosyne'
                   className='btn btn-custom btn-lg page-scroll'
-                  onClick={() => {
-                    new JsFileDownloader({ 
-                      url: fileUrl
-                    })
-                    .then(function () {
-                      console.log("done")
-                    })
-                    .catch(function (error) {
-                      console.log("error")
-                    });
-                  }
-                  }
+                  target="_blank"
                 >
                   Download
                 </a>{' '}
